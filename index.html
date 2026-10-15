@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shahid Rahman — IT Infrastructure & Network Support</title>
+<meta name="description" content="CCNA-certified IT infrastructure and network support executive in Dhaka, Bangladesh. Dell EMC servers, firewalls, VPNs, and pre/post-sales solutions.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔌</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F2F5F8; --surface:#FFFFFF; --ink:#16222D; --muted:#546270; --line:#D5DDE5;
+  --cable:#1E5BC6; --fiber:#C98A00;
+  --head:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0F1923; --surface:#16242F; --ink:#E7EDF2; --muted:#98A7B4; --line:#2A3A47; --cable:#6FA2F5; --fiber:#E8B53A;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--cable)}
+a:focus-visible{outline:3px solid var(--fiber);outline-offset:3px}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:var(--head);line-height:1.15;margin:0}
+nav{display:flex;gap:1.5rem;justify-content:flex-end;padding:1.25rem 0;font-weight:600;font-size:.95rem}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--cable)}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center;padding:3rem 0 4rem}
+.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);font-weight:700;letter-spacing:-.02em}
+.hero .role{font-family:var(--head);font-size:1.3rem;font-weight:500;margin:1rem 0 .5rem}
+.hero p{color:var(--muted);max-width:34rem;margin:.5rem 0 1.5rem}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--cable)}
+.btn.primary{background:var(--cable);color:#fff}
+.btn.ghost{color:var(--cable)}
+.btn:focus-visible{outline:3px solid var(--fiber);outline-offset:3px}
+
+.net{width:100%;height:auto}
+.net .cable{stroke:var(--cable);stroke-width:3;fill:none}
+.net .fiber{stroke:var(--fiber);stroke-width:3;fill:none;stroke-dasharray:2 6;stroke-linecap:round}
+.net rect{fill:var(--surface);stroke:var(--ink);stroke-width:2}
+.net text{font:600 12px var(--head);fill:var(--ink);text-anchor:middle}
+.net .pkt{fill:var(--fiber)}
+
+section{padding:3rem 0;border-top:1px solid var(--line)}
+section h2{font-size:1.8rem;margin-bottom:1.5rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.skills h3{font-size:1.05rem;margin-bottom:.4rem}
+.skills p{margin:0 0 1.2rem;color:var(--muted)}
+.skills ul,.list{margin:0;padding:0;list-style:none}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.2rem}
+.chips li{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:.15rem .6rem;font-size:.95rem}
+
+.tl{position:relative;margin:0;padding:0 0 0 1.75rem;list-style:none}
+.tl::before{content:"";position:absolute;left:5px;top:.6rem;bottom:.6rem;width:3px;background:var(--cable);border-radius:2px}
+.tl>li{position:relative;margin-bottom:2.25rem}
+.tl>li::before{content:"";position:absolute;left:-1.75rem;top:.45rem;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--cable)}
+.tl h3{font-size:1.25rem}
+.when{color:var(--muted);font-size:.95rem;margin:.1rem 0 .6rem}
+.tl ul{margin:0;padding-left:1.1rem}
+.tl li li{margin-bottom:.35rem}
+
+.pub{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--fiber);border-radius:6px;padding:1rem 1.25rem;margin-bottom:1rem}
+.pub strong{font-family:var(--head)}
+.pub span{display:block;color:var(--muted);font-size:.95rem}
+.contact p{max-width:34rem}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+
+@media (max-width:760px){
+  .hero,.two{grid-template-columns:1fr}
+  .hero{padding-top:1.5rem}
+  nav{justify-content:flex-start;flex-wrap:wrap;gap:1rem}
+}
+@media (prefers-reduced-motion:reduce){.pkt{display:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#research">Research</a><a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Shahid Rahman</h1>
+      <div class="role">IT infrastructure and network support executive</div>
+      <p>CCNA-certified engineer with 4+ years of experience running enterprise servers, network hardware, and security systems. I connect technical and sales teams to design and support solutions for enterprise clients.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:engrshd.10@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://linkedin.com/in/engrshd" target="_blank" rel="noopener">View LinkedIn</a>
+        <a class="btn ghost" href="Shahid_Rahman_CV_ATS_2_Page.pdf" download>Download CV</a>
+      </div>
+    </div>
+    <svg class="net" viewBox="0 0 360 300" role="img" aria-label="Diagram: a router connects through a firewall to a switch and a server, with a data packet travelling along the cable">
+      <path class="cable" d="M60 150 H130"/>
+      <path class="cable" id="main" d="M130 150 H200"/>
+      <path class="cable" d="M200 150 H240 V70 H290"/>
+      <path class="fiber" d="M200 150 H240 V230 H290"/>
+      <g><rect x="20" y="125" width="80" height="50" rx="6"/><text x="60" y="155">Router</text></g>
+      <g><rect x="110" y="125" width="90" height="50" rx="6"/><text x="155" y="155">Firewall</text></g>
+      <g><rect x="270" y="45" width="80" height="50" rx="6"/><text x="310" y="75">Switch</text></g>
+      <g><rect x="270" y="205" width="80" height="50" rx="6"/><text x="310" y="235">Server</text></g>
+      <circle class="pkt" r="6">
+        <animateMotion dur="4s" repeatCount="3" path="M60 150 H200 H240 V70 H290"/>
+      </circle>
+    </svg>
+  </header>
+
+  <section id="skills" class="skills">
+    <h2>Skills and certifications</h2>
+    <div class="two">
+      <div>
+        <h3>Networking and security</h3>
+        <ul class="chips"><li>CCNA</li><li>Firewall and VPN configuration</li><li>DNS/DHCP administration</li><li>IP addressing</li><li>Access control</li><li>Network monitoring</li></ul>
+        <h3>Systems and infrastructure</h3>
+        <ul class="chips"><li>Dell EMC servers</li><li>Windows Server</li><li>RHEL</li><li>Rack installation and structured cabling</li><li>Patch and firmware management</li><li>Disaster recovery</li></ul>
+      </div>
+      <div>
+        <h3>Tools and programming</h3>
+        <ul class="chips"><li>Python</li><li>Arduino</li><li>MATLAB</li><li>AutoCAD</li><li>MS Visio</li><li>MS Office</li></ul>
+        <h3>Languages</h3>
+        <p>English (advanced), Bangla (bilingual)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="tl">
+      <li>
+        <h3>Executive, IT (Pre-Post Sales) — Exprezer Infotech</h3>
+        <p class="when">Jan 2025 – Present</p>
+        <ul>
+          <li>Configure and maintain routers, switches, firewalls, and wireless access points, including DNS, DHCP, VPN, and IP address administration.</li>
+          <li>Resolve Level-1 connectivity and infrastructure issues, escalate complex cases, and monitor performance and security to sustain high uptime.</li>
+          <li>Enforce access-control and IT security compliance policies; support patch management, firmware updates, and disaster-recovery testing.</li>
+          <li>Bridge sales and technical teams on pre-sales solution design and post-sales deployment, producing architecture documentation, SOPs, and troubleshooting guides.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Executive, IT — Bangla Trac Limited (BanglaCAT)</h3>
+        <p class="when">Jul 2020 – Feb 2024</p>
+        <ul>
+          <li>Administered Dell EMC servers, storage systems, and enterprise IT infrastructure, using log analysis and performance monitoring to maintain uptime.</li>
+          <li>Ran firmware upgrades and patch management in live production environments; gave onsite and remote support to enterprise clients.</li>
+          <li>Led rack installation, structured cabling (power, Ethernet, fiber), and switch configuration; conducted site surveys and wrote UAT and deployment documentation.</li>
+          <li>Supported the Ami Probashi App and Website, working with developers on architecture, updates, and release deployment.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="education">
+    <h2>Education and leadership</h2>
+    <div class="two">
+      <div>
+        <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+        <p class="when">Canadian University of Bangladesh (CUB), Oct 2021</p>
+        <p>CGPA 3.20/4.00. Awarded an 80% undergraduate scholarship.</p>
+      </div>
+      <div>
+        <h3>Leadership</h3>
+        <ul class="list">
+          <li>President, CUB IEEE Student Branch</li>
+          <li>Vice President, CUB Robotics Club</li>
+          <li>Member, The American Center Bangladesh</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Publications and research</h2>
+    <div class="pub"><strong>Prediction of Dementia using SMOTE-Based Oversampling and Stacking Classifier</strong><span>22nd International Conference on Hybrid Intelligent Systems (HIS 2022)</span></div>
+    <div class="pub"><strong>Development of a Smart Headband for Deafblind People</strong><span>3rd International Conference on Electrical, Computer &amp; Communication Engineering (ECCE 2023), CUET</span></div>
+    <div class="pub"><strong>Thesis: Standalone Photovoltaic Home System with Energy Storage</strong><span>Approved at CUB. Research Assistant, IoT &amp; Big Data Research and Commercialization Cell, CUB.</span></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Based in Bashundhara R/A, Dhaka, Bangladesh. For roles, projects, or questions about my work, email me or message me on LinkedIn.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:engrshd.10@gmail.com">engrshd.10@gmail.com</a>
+      <a class="btn ghost" href="https://linkedin.com/in/engrshd" target="_blank" rel="noopener">linkedin.com/in/engrshd</a>
+    </div>
+  </section>
+
+  <footer>© <span id="y">2026</span> Shahid Rahman</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
